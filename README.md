@@ -33,10 +33,10 @@
 
 
 ## Partners
-**Partner - Digipolis**
+**Partner - Digipolis**<br>
 ![Default white logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/digipolis.png)
 
-**Partner - stad.gent**
+**Partner - stad.gent**<br>
 ![Default white logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/stadgent.png)
 
 ## Typography
