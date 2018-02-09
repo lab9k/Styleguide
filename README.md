@@ -8,11 +8,16 @@
 |![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/primary.png "Primary color")|![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/sub.png "Sub color")|![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/light.png "Light")|![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/darkgray.png "Darkgray")
 
 ## Logo
-**Default logo**
-![Default logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/logo-lab9k.svg?sanitize=true)
 
-**Default white logo (white)**
-![Default white logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/logo-white-lab9k.svg?sanitize=true)
+|**Default logo**|**Default white logo**|
+|---	|---  |
+|||
+|![Default logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/logo-lab9k.svg?sanitize=true)|![Default white logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/logo-white-lab9k.svg?sanitize=true)|
+|
+```html
+<img src="path/to/logo-lab9k.svg" alt="Lab9K white" height="50">
+```
+|
 
 ## Partners
 **Partner - Digipolis**
