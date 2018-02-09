@@ -41,7 +41,7 @@
 
 ## Typography
 [Google Fonts](https://fonts.google.com) is your best friend!<br>
-**Usage**
+### Usage
 ```html
 <!DOCTYPE html>
 <html lang="en">
