@@ -1,21 +1,11 @@
 # Styleguide
 
 ## Colors
-**Primary color**<br>
-```#026495```<br>
-![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/primary.png "Primary color")
 
-**Sub color**<br>
-```#4a92b8```<br>
-![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/sub.png "Sub color")
-
-**Light**<br>
-```#dae5ea```<br>
-![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/light.png "Light")
-
-**Darkgray (for texts, don't use black! :o)**<br>
-```#252525```<br>
-![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/darkgray.png "Darkgray")
+|**Primary color**|**Sub color**|**Light**|**Darkgray**<br>(for texts, don't use black! :o)|
+|---	|---	|---	|---	|
+|```#026495```|```#4a92b8```|```#dae5ea```|```#252525```|
+|![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/primary.png "Primary color")|![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/sub.png "Sub color")|![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/light.png "Light")|![alt text](https://raw.githubusercontent.com/lab9k/Styleguide/master/colors/darkgray.png "Darkgray")
 
 ## Logo
 
