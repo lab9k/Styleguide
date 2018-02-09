@@ -40,7 +40,7 @@
 ![Default white logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/stadgent.png)
 
 ## Typography
-[Google Fonts](https://fonts.google.com) is your best friend!
+[Google Fonts](https://fonts.google.com) is your best friend!<br>
 **Usage**
 ```html
 <!DOCTYPE html>
