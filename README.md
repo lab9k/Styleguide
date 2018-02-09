@@ -65,12 +65,15 @@ body {
 OR
 ```css
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
 ```
 
+## Basic grid system with responsive container
+See the code in [codepen.io](https://codepen.io/ismakutl/pen/EQZqRo)<br>
+Example video: https://i.gyazo.com/ab28831709d3dc71b431b2700136f791.mp4
 
-## Cards
 
 > [Lab9K](https://lab9k.github.io/).
