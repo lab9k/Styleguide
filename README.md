@@ -40,6 +40,36 @@
 ![Default white logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/stadgent.png)
 
 ## Typography
+[Google Fonts](https://fonts.google.com) is your best friend!
+**Usage**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+    
+</body>
+</html>
+```
+```css
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+```
+OR
+```css
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+```
+
 
 ## Cards
 
