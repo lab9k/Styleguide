@@ -13,11 +13,24 @@
 |---	|---  |
 |||
 |![Default logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/logo-lab9k.svg?sanitize=true)|![Default white logo](https://raw.githubusercontent.com/lab9k/Styleguide/master/assets/logo-white-lab9k.svg?sanitize=true)|
-|
+
 ```html
-<img src="path/to/logo-lab9k.svg" alt="Lab9K white" height="50">
+  <img src="path/to/logo-lab9k.svg" alt="Lab9K white" height="50">
 ```
-|
+*OR*
+```html
+<div id="logo"></div>
+```
+
+```css
+#logo {
+  height: 50px;
+  width: auto;
+  background-image: url('path/to/logo-lab9k.svg');
+  background-repeat: no-repeat;
+}
+```
+
 
 ## Partners
 **Partner - Digipolis**
