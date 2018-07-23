@@ -6,8 +6,6 @@
 
 \usepackage[dutch]{babel}
 
-\usepackage{fontspec}               % Use own font - YOU MUST USE XELATEX OR LUALATEX INSTEAD OF PDF-LATEX FOR THIS PACKAGE!
-
 \usepackage{geometry}               % Interface to change page dimensions
 \usepackage{parskip}                % For better spacing and indenting of paragraphs
 
@@ -23,10 +21,12 @@
 \usepackage{url}
 \usepackage{hyperref}
 
+\usepackage{fontspec}               % Use own font
+\usepackage{csquotes}               % For quotations, mainly the \enquote command
 \usepackage{anyfontsize}            % Specify font sizes
 \usepackage{xcolor}                 % Define own colours
 
-\usepackage{lipsum}                 % Lorem ipsum
+\usepackage{lipsum}                 % Lorem ipsum generator
 
 % \usepackage{minted}               % For code snippets
 
@@ -41,13 +41,14 @@
 
 % Colour scheme (based on logo)
 
-\definecolor{priColour}{HTML}{026495}              % primary colour
-\definecolor{secColour}{HTML}{4a92b8}              % secondary colour
+\definecolor{priColour}{HTML}{026495}          % primary colour
+\definecolor{secColour}{HTML}{4a92b8}          % secondary colour
 
 % General configuration and package setup
 
 \geometry{}
-\graphicspath{ {figuren/} }    % Map containing all images
+\graphicspath{ {figuren/} }                    % Map containing all images
+\DeclareQuoteAlias{english}{dutch}             % Use English quotations instead of Dutch
 \setlength{\headheight}{15pt}
 
 \makeatletter \hypersetup{
@@ -78,9 +79,9 @@
 \rhead{\@date}
 
 \begin{document}
-	% TITLE %
+	%% TITLE %%
 	\begin{figure}
-		\includegraphics[width=0.27\textwidth,keepaspectratio]{figuren/logo} % Logo of Lab9K
+		\includegraphics[width=0.27\textwidth,keepaspectratio]{figuren/logo} % Lab9K Logo
 	\end{figure}
 	\vspace*{0.35cm}
 	
@@ -89,6 +90,6 @@
 	
 	\fontsize{11pt}{15pt}\selectfont
 	
-	% BODY %
+	%% BODY %%
 	\lipsum[1]
 \end{document}
