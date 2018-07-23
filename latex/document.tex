@@ -8,12 +8,13 @@
 
 \let\latinencoding\relax            % Fix for this issue: https://github.com/wspr/fontspec/issues/312
 \usepackage{fontspec}               % Use own font
+% YOU MUST USE XELATEX OR LUALATEX INSTEAD OF PDF-LATEX FOR THIS PACKAGE!
 
 \usepackage{geometry}               % Interface to change page dimensions
 \usepackage{parskip}                % For better spacing and indenting of paragraphs
 
 \usepackage{graphicx}               % Images
-\usepackage[export]{adjustbox}				% Wrap text around figures
+\usepackage[export]{adjustbox}		% Wrap text around figures
 \usepackage{fancyhdr}               % Headers and footers
 \usepackage{caption}                % Caption
 
@@ -32,7 +33,7 @@
 %\usepackage{minted}				% For code snippets
 
 % Configure content of title page
-
+% TODO UPDATE FOLLOWING INFORMATION!
 \title{Titel}
 \author{Voornaam Achternaam}
 \newcommand{\organisation}{Lab9K}
@@ -63,7 +64,7 @@
 
 % Fonts
 
-\setmainfont{Ubuntu}
+\setmainfont{Ubuntu}  % YOU MUST HAVE THIS FONT INSTALLED (downloadable through Google fonts)
 \setmonofont{Ubuntu}
 
 % General styling
@@ -79,9 +80,9 @@
 \rhead{\@date}
 
 \begin{document}
-	% TITEL %
+	% TITLE %
 	\begin{figure}
-			\includegraphics[width=0.27\textwidth,keepaspectratio]{figuren/logo} % Logo of Lab9K
+		\includegraphics[width=0.27\textwidth,keepaspectratio]{figuren/logo} % Logo of Lab9K
 	\end{figure}
 	\vspace*{0.35cm}
 	
